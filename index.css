@@ -392,6 +392,8 @@ margin-top: 30px;
 @media(max-width:930px){
     .card-content{
         grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 20px;
     }
 }
 .banner{
@@ -613,65 +615,4 @@ form textarea{
 html{
     scroll-behavior: smooth;
 }
-.order{
-    padding: 0px 8% 120px;
-}
-.order h3{
-    font-size: 36px;
-    color: #388b6f;
-    text-align: center;
-    text-shadow: 0px 1px 1px black;
-    font-weight: 900;
-}
-.order-content{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-    align-items: center;
-    gap: 2rem;
-    margin-top: 2rem;
-}
-.order-content img{
-    width: 450px;
-    border-radius: 20px;
-}
-.order-form form{
-    position: relative;
-}
-.ordert-form form input,
-form textarea{
-    width: 100%;
-    padding: 10px;
-    color: black;
-    background-color: white;
-    border: none;
-    outline: none;
-    font-size: 15px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-}
-.order-form textarea{
-    resize: none;
-    height: 160px;
-} 
-.order-form .submit{
-    display: inline-block;
-    font-size: 15px;
-    background: #388b6f;
-    color: white;
-    width: 160px;
-    transition: 0.5s;
-    cursor: pointer;
-    border: none;
-}
-.order-form .submit:hover{
-    width: 175px;
-}
-@media(max-width:930px){
-    .order{
-        grid-template-columns: 1fr;
-        max-width: 100%;
-}
-.order-content img{
-    width: 350px;
-}
-}
+
